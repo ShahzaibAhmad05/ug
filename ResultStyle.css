@@ -6,6 +6,8 @@ body {
     font-weight: bold;
     text-decoration: underline;
     padding-top: 1.5em;
+    position: relative;
+    top: -3px;
 }
 
 .heading2 {
@@ -13,6 +15,8 @@ body {
     font-weight: bold;
     text-decoration: underline;
     padding-top: 2em;
+    position: relative;
+    top: -3px;
 }
 
 .result {
