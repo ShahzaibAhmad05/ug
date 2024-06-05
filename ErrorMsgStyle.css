@@ -1,0 +1,62 @@
+.errorMessage {
+    display: block;
+    width: 940px;
+    background-color: #ff3700;
+    min-height: 30px;
+    padding: 5px;
+}
+
+    .errorMessage h1 {
+        font-family: monospace !important;
+        color: #fff;
+        text-align: center;
+        float:left;
+        width:90%;
+    }
+    .errorMessage li {
+        width: 95%;
+        float:left;
+    }
+
+.hideMessage {
+    display: none;
+}
+
+.floatMessage {
+    position: fixed;
+    top: 0px;
+    /*padding:5px;*/
+    /*opacity: 0.8;*/
+}
+
+.floatMessageClose {
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+
+    .floatMessageClose img {
+        width: 16px;
+        height: 16px;
+    }
+
+
+.warningMessage {
+    display: block;
+    width: 940px;
+    background-color: #ffd800;
+    min-height: 30px;
+    padding: 5px;
+}
+
+    .warningMessage h1 {
+        font-family: monospace !important;
+        color: #000;
+        text-align: left;
+        float:left;
+        width:95%;
+    }
+    .warningMessage li {
+        width: 95%;
+        float:left;
+    }

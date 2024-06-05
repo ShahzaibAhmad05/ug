@@ -1,0 +1,1546 @@
+@charset "utf-8";
+/* CSS Document */
+/* Reset Style End*/
+
+body, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+caption, th {
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+/* Reset Style End*/
+
+p {
+    margin-bottom: 14px;
+}
+
+.p1 {
+    margin-bottom: 9px;
+}
+
+.p2 {
+    margin-bottom: 18px;
+}
+
+.p3 {
+    margin-bottom: 27px;
+}
+
+/*----- txt, links, lines, titles -----*/
+a, a:visited {
+    color: #033B73;
+    outline: none;
+    
+}
+
+ a:hover {
+        text-decoration: none;
+    }
+
+h2 {
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    font-style: italic;
+    background: url(images/line-dot.gif) 0 100% repeat-x;
+    padding: 0 0 5px 53px;
+    margin-bottom: 18px;
+    text-shadow: 1px 1px 0 #06162b;
+}
+
+h4 {
+    font-size: 14px;
+    color: #e85a00;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-size: 14px;
+    color: #e85a00;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+body {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.error {
+    color: red !important;
+}
+.failureNotification {
+color:#fff;}
+#wapper {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+}
+
+
+/*------------------------------------------------------------top head------------------------------------------------------------*/
+#main-container-tophead {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+    background-color: #000;
+    border-bottom: #FFF 1px solid;
+}
+
+#content-tophead {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #00548f;
+}
+
+#tophead {
+    width: 950px;
+    height: auto;
+    float: left;
+    padding: 15px 25px 14px 25px;
+    background-color: #000;
+}
+
+.logo-container {
+    width: 130px;
+    height: auto;
+    float: left;
+    padding: 0px;
+}
+
+.tophead-right-content {
+    width: 797px;
+    height: auto;
+    float: right;
+    padding: 0px;
+}
+
+.tophead-logotext-iconcontainer {
+    width: 797px;
+    height: auto;
+    float: left;
+    padding: 0px;
+}
+
+.logo-text {
+    width: 474px;
+    height: auto;
+    float: left;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    padding: 0px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 14px;
+}
+
+.icon-bar-container {
+    width: 283px;
+    height: auto;
+    float: right;
+    padding: 0px;
+}
+
+.top-icon-container {
+    /*width: 296px;*/
+    height: auto;
+    float: right;
+    padding: 7px 0px 15px 0px;
+    margin: 0px;
+}
+
+    .top-icon-container ul {
+        width: 100%;
+        height: auto;
+        float: left;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .top-icon-container li {
+        width: auto;
+        height: auto;
+        float: left;
+        padding: 0px 2px 0px 2px;
+        margin: 0px;
+        font-size: 11px;
+        color: #fff;
+        list-style: none;
+        line-height: 15px;
+        text-transform: uppercase;
+    }
+
+        .top-icon-container li a:link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .top-icon-container li a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .top-icon-container li a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.searchbar-container {
+    width: 283px;
+    height: auto;
+    float: right;
+    padding: 0px;
+}
+
+.searchbar {
+    width: 282px;
+    height: 17px;
+    background-color: #fff;
+    float: left;
+    padding: 2px 2px;
+}
+
+.search-listmenu {
+    width: auto;
+    font-size: 12px;
+    color: #006199;
+    text-transform: uppercase;
+    height: auto;
+    float: left;
+    border: 0px;
+}
+
+.searchbar-google-icon {
+    width: 38px;
+    height: auto;
+    float: left;
+    padding: 0px 3px 0px 2px;
+}
+
+.searchbar-textfield {
+    width: 168px;
+    height: 18px;
+    float: left;
+    padding: 0px;
+    border: 0px;
+    font-size: 12px;
+    color: #9e9e9e;
+}
+
+.nav-container {
+    width: 797px;
+    height: auto;
+    float: left;
+    padding: 3px 0px 0px 0px;
+    _padding: 7px 0px 0px 0px;
+}
+
+.navbg {
+    background-color:#00548f;
+    width: 797px;
+    height: 25px;
+    float: left;
+    padding-top: 5px;
+}
+
+.nav-content {
+    width: 795px;
+    height: auto;
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+    .nav-content ul {
+        width: 795px;
+        height: auto;
+        float: left;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nav-content li {
+        width: auto;
+        height: auto;
+        float: left;
+        padding: 0px 5px;
+        margin: 0px;
+        list-style: none;
+        font-size: 13px;
+        color: #fff;
+        line-height: 25px;
+    }
+
+        .nav-content li a:link {
+            font-size: 13px;
+            color: #fff;
+            text-decoration: none;
+            padding: 0px 8px 18px 8px;
+        }
+
+        .nav-content li a:visited {
+            font-size: 13px;
+            color: #fff;
+            text-decoration: none;
+            padding: 0px 8px 18px 8px;
+        }
+
+        .nav-content li a:hover {
+            font-size: 13px;
+            color: #ffae00;
+            text-decoration: none;
+            /*background: url(https://ugadmissions.nust.edu.pk/images/arrows/hover-arrow-white.jpg) center bottom no-repeat;*/
+            padding: 0px 8px 18px 8px;
+        }
+/*------------------------------------------------------------top head end--------------------------------------------------------*/
+
+/*--------------------------------------------------------------slider--------------------------------------------------------------*/
+#main-container {
+    width: 100%;
+    height: 270px;
+    margin: auto;
+    padding: 0px;
+    z-index: 100;
+    background-color: #fff;
+}
+
+#main-container-slider {
+    width: 100%;
+    height: 270px;
+    margin: auto;
+    padding: 0px;
+    background-color: #d7d7d7;
+    z-index: 100;
+}
+
+#content-slider {
+    width: 1000px; /*height:auto;*/
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+}
+
+#slider {
+    width: 680px;
+    height: 270px;
+    float: left;
+    padding: 0px 0px 0px 0px;
+    background: url(https://ugadmissions.nust.edu.pk/PublishingImages/banner/banner3.jpg) no-repeat;
+}
+/*#LoginAll{float:right;margin-bottom:5em; z-index:-10; }*/
+/*.slider-strip{background:url(https://ugadmissions.nust.edu.pk/PublishingImages/banner/list-univ-strip.png) no-repeat; width:806px; height:83px; float:left; padding:0px 20px; }*/
+.uni-txt {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 3px 10px 0px 12px;
+}
+
+.top-univ-txt {
+    font-size: 40px;
+    color: #005fa2;
+    font-weight: bold;
+    text-shadow: #291a01 1px 1px 1px;
+    float: left;
+}
+
+.top-univ-txt2 {
+    font-size: 35px;
+    color: #005fa2;
+    font-weight: bold;
+    text-shadow: #291a01 1px 1px 1px;
+    float: left;
+    padding: 5px 0px 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.top-univ-txt3 {
+    font-size: 30px;
+    color: #005fa2;
+    font-weight: bold;
+    text-shadow: #291a01 1px 1px 1px;
+    float: left;
+    padding: 8px 0px 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.top-univ-txt4 {
+    font-size: 25px;
+    color: #005fa2;
+    font-weight: bold;
+    text-shadow: #291a01 1px 1px 1px;
+    float: left;
+    padding: 12px 0px 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.univ-bluetxt {
+    font-size: 12px;
+    color: #005fa2;
+    font-weight: bold;
+    padding: 34px 0px 0px 0px;
+    float: left;
+    width: auto;
+    height: auto;
+}
+/*----------------------------------------------------------slider end-----------------------------------------------------*/
+
+/*--------------------------------------------------------------body--------------------------------------------------------------*/
+#main-container-body {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    z-index: -50;
+    background-color: #F0F0F0;
+}
+
+#content-body {
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px;
+    z-index: -14;
+}
+
+#body {
+    width: 1000px;
+    background-color:#fff;
+    height: auto;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    z-index: -45;
+}
+
+.body-contents {
+    width: 1000px;
+    height: auto;
+    float: left;
+    padding: 0px;
+}
+
+.body-contents2 {
+    width: 1000px;
+    height: auto;
+    float: left;
+    padding: 0px;
+    background-color: #fff;
+    min-height: 500px;
+    padding: 2em;
+}
+
+.body-contents-left {
+    width: 680px;
+    height: auto;
+    float: left;
+    /*padding: 20px 0px 15px 0px;*/
+    margin-top: 5px;
+    vertical-align: top;
+}
+/*.regbg-left{width:8px; height:291px; float:left; background:url(https://ugadmissions.nust.edu.pk/images/regbg-left.jpg) no-repeat;}
+.regbg-right{width:8px; height:291px; float:left; background:url(https://ugadmissions.nust.edu.pk/images/regbg-right.jpg) no-repeat;}*/
+.regbg-midbg {
+    background: url(https://ugadmissions.nust.edu.pk/images/regbg-midbg.jpg) repeat-x;
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+.regbg2-midbg {
+    background: url(https://ugadmissions.nust.edu.pk/images/regbg-midbg.jpg) repeat-x;
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+
+.reg-title {
+    width: auto;
+    height: auto;
+    float: left;
+    color: #00548f;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-shadow: #e0e0e0 1px 1px 0px;
+}
+
+.reg-text {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 8px 0px 0px 0px;
+    font-size: 12px;
+    color: #000;
+    line-height: 18px;
+}
+
+.reg-point {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 8px 0px 0px 0px;
+    margin: 0px;
+}
+
+    .reg-point ul {
+        width: auto;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 15px;
+        margin: 0px;
+    }
+
+    .reg-point li {
+        width: auto;
+        height: auto;
+        float: left;
+        padding: 0px 0px 0px 10px;
+        margin: 0px;
+        line-height: 18px;
+        font-size: 12px;
+        color: #000;
+        list-style: lower-roman;
+    }
+
+.reg-linktxt {
+    font-size: 12px;
+    color: #00548f;
+    text-decoration: none;
+}
+
+    .reg-linktxt a:link {
+        font-size: 12px;
+        color: #00548f;
+        text-decoration: none;
+    }
+
+    .reg-linktxt a:visited {
+        font-size: 12px;
+        color: #00548f;
+        text-decoration: none;
+    }
+
+    .reg-linktxt a:hover {
+        font-size: 12px;
+        color: #00548f;
+        text-decoration: none;
+    }
+
+.reg-btn {
+    width: 520px;
+    height: auto;
+    float: left;
+    padding: 20px 0px 0px 0px;
+}
+
+.body-contents-right {
+    width: 260px;
+    height: auto;
+    float: right;
+    padding: 0px;
+    z-index: -12;
+    padding-top: .3em;
+}
+
+.body-Notice {
+    background-color: #00548f;
+    width: 310px;
+    height: 260px;
+    float: right;
+    text-align:left;
+    padding: 5px;
+    /*z-index: 12;*/
+    /*opacity: 0.85;
+    filter: alpha(opacity=85);*/ /* For IE8 and earlier */
+}
+
+.Notice-box{
+    float:left;
+    margin-top:8px;
+    background-color:#e3e3e3;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    height:225px;
+    
+}
+    .Notice-box td {
+        height:auto;
+        float: left;
+        padding-left: 5px; 
+        padding-right:5px;
+        vertical-align:top;  
+        
+    }
+
+    .Notice-box .heading {
+        font-weight:bold;
+        font-size:13px;
+        padding-top:10px;
+        /*padding-bottom:10px;*/
+    }
+    .Notice-box ul, .Notice-box ol {
+        padding-left:15px;
+    }
+    .Notice-box li {
+        padding-top:5px;
+    }
+.body-login {
+    /*background-color: #033B73;*/
+    background-color:#7abdff;
+    width: 200px;
+    height: 255px;
+    padding: 10px 0px 0px 14px;
+    margin:0 auto;
+    /*z-index: 12;*/
+    /*opacity: 0.85;
+    filter: alpha(opacity=85);*/ /* For IE8 and earlier */
+}
+.body-NewReg-NET {
+    
+    background-color: #ff6a00;
+    background: url(https://ugadmissions.nust.edu.pk/PublishingImages/NET-head-bg2.jpg) no-repeat;
+    color:white;
+    font-size:13px;
+    width: 194px;
+    height:40px;
+    padding: 15px 10px 5px 10px ;
+    margin:0 auto;
+    text-align:center;
+    /*z-index: 12;*/
+    
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    
+}
+    .body-NewReg-NET h2 {
+        line-height:25px;
+        color:#fff;
+        font-size:10px;
+        margin:0;
+    }
+    .body-NewReg-NET span {
+        font-weight:bold;
+        font-size:14px;
+    }
+.body-NewReg-NET-Detail {
+    
+    background-color: #033B73;
+    color:white;
+    width: 194px;
+    padding: 5px;
+    margin:0 auto;
+    /*z-index: 12;*/
+    /*opacity: 0.85;
+    filter: alpha(opacity=85); *//* For IE8 and earlier */
+    border-bottom: 1px solid #4cb0ee;
+    margin-top:5px; 
+}
+
+.body-NewReg-SAT {
+    text-align:center;
+    /*background-color: #3a4d49;*/
+       background-color:#000;
+       background: url(https://ugadmissions.nust.edu.pk/PublishingImages/sat-head-bg2.jpg) no-repeat;
+    color:#fff;
+    font-size:15px;
+    height:40px;
+    width: 194px;
+    padding: 15px 10px 5px 10px ;
+    margin:0 auto;
+    /*z-index: 12;*/
+    
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    -moz-border-radius-topleft:5px;
+    -moz-border-radius-topright:5px;
+    
+}
+    .body-NewReg-SAT h2 {
+        line-height:25px;
+        color:#033B73;
+        font-size:10px;
+        margin:0;
+    }
+    .body-NewReg-SAT span {
+        font-weight:bold;
+        font-size:14px;
+    }
+
+.body-login-sat {
+    /*background-color: #9ecbc3;*/
+    background-color:#b95835;
+    color:#000;
+    width: 200px;
+    height: 255px;
+    padding: 10px 0px 0px 14px;
+    margin:0 auto;
+    /*z-index: 12;*/
+    /*opacity: 0.85;*/
+    filter: alpha(opacity=85); /* For IE8 and earlier */
+}
+
+.UpLogin {
+    height: 90px;
+}
+
+.body-rightbg {
+    width: 100%;
+    height:100%;
+    float: right;
+    z-index: -10;
+    /*border: solid 1px #c6c9cc;*/
+    vertical-align: top;
+    background-color: #fff;
+}
+
+.body-newsbg {
+    height:300px;
+    width:240px;
+    padding:3px;
+    background:url(https://ugadmissions.nust.edu.pk/PublishingImages/newsbg.jpg) no-repeat;
+    background-repeat:no-repeat;
+}
+
+
+.reg-usertitle {
+    width: auto;
+    height: auto;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    /*text-shadow: #e0e0e0 1px 1px 0px;*/
+    /*padding: 0px 0px 25px 0px;*/
+}
+
+/*.field-cont {
+    width: 289px;
+    height: auto;
+    float: left;
+    padding: 11px 0px 0px 0px;
+}*/
+
+/*.text-field {
+    background: url(https://ugadmissions.nust.edu.pk/images/text-field.jpg) no-repeat;
+    border: 0px;
+    width: 175px;
+    height: 23px;
+    float: left;
+    font-size: 11px;
+    color: #7f7e7e;
+    line-height: 23px;
+    padding: 0px 0px 0px 10px;
+}*/
+
+.sing-txt {
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+}
+
+    .sing-txt a:link {
+        font-size: 11px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .sing-txt a:visited {
+        font-size: 11px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .sing-txt a:hover {
+        font-size: 11px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+/*.sing-txt2 {
+    font-size: 11px;
+    color: #000;
+    line-height: 29px;
+    float: left;
+    padding: 0px 0px 0px 8px;
+    text-decoration: none;
+}*/
+
+/*.sing-txt2 a:link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .sing-txt2 a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .sing-txt2 a:hover {
+        color: #fff;
+        text-decoration: none;
+    }*/
+
+.mes-txt {
+    width: 260px;
+    height: auto;
+    float: left;
+    padding: 32px 0px 0px 0px;
+    font-size: 11px;
+    color: #000;
+    line-height: 18px;
+}
+/*--------------------------------------------------------------body end----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------footer-------------------------------------------------------------*/
+/*---- update on 12 May 2015 start ----- */
+#footertbl td{
+    vertical-align:top;    
+}
+
+#footertbl li{
+    padding-bottom:2px;
+}
+#footertbl li a, #footertbl li a:visited
+{
+    text-decoration:none;
+}
+
+#footertbl li a:hover
+{
+    text-decoration:underline;
+}
+
+/*---- update on 12 May 2015 end -----*/
+#footermain {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #000;
+}
+
+#footer {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+    background-color: #000;
+}
+
+.footer-content {
+    width: 1000px;
+    height: auto;
+    float: left;
+    padding: 15px 0px 15px 0px;
+}
+
+.footer-left {
+    width: 182px;
+    height: auto;
+    float: left;
+    padding: 0px 0px 0px 25px;
+}
+
+.footer-right {
+    width: 772px;
+    height: auto;
+    float: right;
+    padding: 0px 15px 0px 0px;
+}
+
+.footer-social-icon {
+    width: 182px;
+    height: auto;
+    float: left;
+    padding: 0px;
+}
+
+.social-title {
+    font-size: 11px;
+    color: #fff;
+    line-height: 25px;
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+
+.footer-text {
+    font-size: 11px;
+    color: #fff;
+    float: left;
+    margin: 0px;
+    padding: 0px 0px 2px 0px;
+}
+
+.footer-copyright-text {
+    font-size: 11px;
+    color: #fff;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    padding: 0px 10px 0px 0px;
+}
+
+    .footer-copyright-text a:link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-copyright-text a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer-copyright-text a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+/*--------------------------------------------------------------footer end---------------------------------------------------------*/
+
+/*==================boxes====================*/
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.col-1, .col-2, .col-3 {
+    float: left;
+}
+
+/*.box {
+    background: #fff;
+    width: 100%;
+}
+
+    .box .left-bot-corner {
+        background: url(images/left-bot-corner.gif) no-repeat left bottom;
+        width: 100%;
+    }
+
+    .box .right-bot-corner {
+        background: url(images/right-bot-corner.gif) no-repeat right bottom;
+    }
+
+    .box .inside {
+        padding: 21px 20px 48px 20px;
+    }*/
+
+
+.box1 {
+    background: #fff; /*E5E5E5*/
+    /*border: 1px solid #c6c9cc;*/
+    /*margin: 5px;*/
+    padding: .5em .5em .5em 1em;
+    /*-moz-box-shadow: 0px 2px 4px #e3e3e3; /* FF3.5+ */
+    /*-webkit-box-shadow: 0px 2px 4px #e3e3e3;*/ /* Saf3.0+, Chrome 
+    box-shadow: 0px 2px 4px #e3e3e3; /* Opera 10.5, IE 9.0 */
+    min-height: 260px;
+    
+}
+
+.box3 {
+    background: #fff;
+    border: 1px solid #c6c9cc;
+    margin: 5px;
+    padding: .5em .5em .5em 1em;
+    -moz-box-shadow: 0px 2px 4px #e3e3e3; /* FF3.5+ */
+    -webkit-box-shadow: 0px 2px 4px #e3e3e3; /* Saf3.0+, Chrome */
+    box-shadow: 0px 2px 4px #e3e3e3; /* Opera 10.5, IE 9.0 */
+    height: 280px;
+}
+
+.box2 {
+    background: #fff;
+    margin: 10px;
+    margin-top:5px;
+    /*padding: .2em;*/
+}
+
+.list1 li,   .list1 ul {
+    list-style-type: square;
+    list-style-position:inside;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    text-align:justify;
+}
+
+.list1 li a {
+    color: #033B73;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+    .list1 li a.link1 {
+        font-size: 12px;
+        color: #e85a00;
+        text-transform: none;
+        padding-left: 8px;
+        text-align: right;
+    }
+
+.divright {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.news {
+    padding: 0 0 6px 0;
+}
+
+    .news li {
+        overflow: hidden;
+        position: relative;
+        padding: 0 0 30px 50px;
+        width:75%;
+        /*height: 25px;*/
+    }
+
+        .news li p.date {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 40px;
+            height: 40px;
+            margin: 0;
+            text-align: center;
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.2em;
+            text-shadow: 1px 1px 0 #0f53e8;
+            background: url(https://ugadmissions.nust.edu.pk/images/date.gif) no-repeat 0 0;
+        }
+
+            .news li p.date span {
+                display: block;
+                font-size: 12px;
+                margin-top: -6px;
+            }
+
+        .news li span.heading {
+            color:#005fa2;
+            font-weight:bold;
+            
+        }
+    .news p {
+        padding-top:5px;
+    }
+/**box end*/
+.tbllogin td {
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 3px 0px 0px 0px;
+}
+
+    .tbllogin td input[type="text"], .tbllogin td input[type="password"] {
+        /*background: url(https://ugadmissions.nust.edu.pk/images/text-field.jpg) no-repeat;*/
+        border: 1px solid gray;
+        height: 23px;
+        float: left;
+        font-size: 11px;
+        color: #000;
+        line-height: 23px;
+        padding: 0px 0px 0px 2px;
+    }
+
+    .tbllogin  .sing-txt2 {
+        font-size: 11px;
+        /*color: #000;*/
+        line-height: 20px;
+        float: left;
+        padding: 0px 0px 0px 8px;
+        text-decoration: none;
+    }
+
+        .tbllogin  .sing-txt2 a:link {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .tbllogin  .sing-txt2 a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .tbllogin  .sing-txt2 a:hover {
+            color: #000;
+            text-decoration: none;
+        }
+
+    /*.tbllogin td .btnlogin {
+        background-color: #000;
+        color: #fff;
+        width: 100px;
+        padding: .2em;
+        border: 0;
+    }*/
+
+.Library_LeftHeading {
+    background-image: url('https://ugadmissions.nust.edu.pk/images/lib_lefthead.png');
+    background-repeat: repeat-x;
+    /*width: 300px;*/
+    height: 27px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 5px 5px 10px;
+    vertical-align: middle;
+}
+
+.Generic_title {
+    padding:5px;
+    font-size: 14px;
+    text-align: left;
+    color: #005391;
+    font-weight: bold;
+}
+/*.login td
+{
+    width: 289px;
+    height: auto;
+    padding: 11px 0px 0px 0px;
+    line-height:1.8em; 
+}
+
+.login td input[type="text"], .login td input[type="password"] 
+{
+    height: 23px;
+    float: left;
+    font-size: 11px;
+    color: #7f7e7e;
+    line-height: 23px;
+    padding: 0px 0px 0px 2px;
+}*/
+
+.add {
+    width: 100%;
+    /*background-color:#F4F4F4;*/
+}
+
+    .add th {
+        background: #71A9E1;
+        padding: 5px;
+        color: #ffffff;
+    }
+
+        .add th a:link, .add th a:active, .add th a:visited {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .add th a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+    .add td {
+        text-align: left;
+        /*color: #27343C;*/
+        line-height: 2em;
+        /*padding-left: 1.5em;
+        border-bottom: solid 1px #DAE0E4;
+        border-right: solid 1px #DAE0E4; /*#C9CACC;/*/
+        font-size: 12px;
+        width: 289px;
+        height:3em;
+    }
+
+    /*.add .ajax__validatorcallout_error_message_cell {
+        text-align: left;
+        color: red;
+        line-height: 1em;
+        padding-left: 0em;
+        width: 100%;
+        /*border-bottom:solid 1px #DAE0E4;
+        border-right:solid 1px #DAE0E4; /*#C9CACC;*/
+    /*font-size:12px;/
+    }*/
+
+    .add .alter {
+        text-align: left;
+        color: #000000;
+        padding: 4px;
+        font-weight: bold;
+        padding-left: 2em;
+        border-bottom: solid 1px #A4C6EC;
+        border-right: solid 1px #A4C6EC;
+        /*background: #DADFE2;*/
+    }
+    /*.add .btn
+{
+        cursor:pointer;
+		height:23px;
+        width:auto;
+        margin: 0px 10px 0px 0px;
+        color:#fff;
+        background-color:#1B5897;
+        border:solid .2em #CD9507;
+        padding:.0em 1em .2em 1em;
+         line-height:2em;
+        -moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;
+}
+
+.add .btnPunch
+{
+    cursor:pointer;
+    width:auto;
+    height:1.8em;
+    margin: 0px 10px 0px 0px;
+	font-size:3em;
+    color:#fff;
+    background-color:#1B5897;
+    border:solid .1em #CD9507;
+    padding:.0em 1em .2em 1em;
+    line-height:2em;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -khtml-border-radius-bottomleft: 7px;
+    -khtml-border-radius-bottomright: 7px;
+    -webkit-border-bottom-left-radius: 7px;
+    -webkit-border-bottom-right-radius: 7px;
+    border-radius: 7px 7px 7px 7px;        
+        
+    }*/
+
+    /*.add .currrenttime
+    {
+        font-size:4em;
+        text-align:left;
+        background:#F6AE4C;
+        -moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;
+    }*/
+    .add td label {
+        /*color:#1A6ACA;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	padding:0px;*/
+    }
+    /*select.ddl 
+{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding-left:.5em;
+    background-color:#A4C6EC;
+}*/
+    .add tr.even td {
+        background: #FFFFFF;
+    }
+
+    .add td a {
+        color: #0673C0;
+        padding: 2px;
+        text-decoration: none;
+    }
+
+        .add td a:hover {
+            text-decoration: underline;
+        }
+
+    .add td select {
+        /*width: 230px;*/
+        height: 30px;
+        border: 1px solid #ccc;
+        padding-left: .5em;
+        border: #4cb0ee solid 1px;
+        /*background-color:#A4C6EC;*/
+    }
+
+    .add td input {
+        color: #000000;
+        /*font-size: 11px;*/
+        /*font-weight: bold;*/
+    }
+
+        .add td input:focus {
+            color: red;
+            border: solid 1px red;
+            /*font-size: 12px;*/
+            /*font-weight: bold;*/
+        }
+
+        .add td input[type="text"], .add td input[type="password"] {
+            /*width: 219px;*/
+            height: 25px;
+            border: #4cb0ee solid 1px;
+        }
+
+        .add td input[type="checkbox"] {
+        }
+
+    .add td textarea {
+        width: 400px;
+        height: 117px;
+        border: #4cb0ee solid 1px;
+    }
+
+        .add td textarea:focus {
+            color: Red;
+            border: solid 1px red;
+        }
+
+    .add td input[type="file"] {
+        width: 232px;
+        height: 23px;
+    }
+
+    .add td input[type="submit"],.add td input[type="reset"] {
+        cursor: pointer;
+        height: 30px;
+        min-width:100px;
+        width:auto;
+        /*margin: 0px 10px 0px 0px;*/
+        color: #fff;
+        background-color: #454545;
+        border: solid 1px #000;
+        padding: 0em .5em 0em .5em;
+        font-weight:bold;
+        line-height: 2em;
+        /*-moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;*/
+    }
+    /*.add td input[type="submit"].btnPunch
+{
+    height:1.8em;
+    font-size:3em;
+    border:solid .1em #CD9507;
+ }*/
+
+    .add td a:link, .add td a:active, .add td a:visited {
+        outline: none;
+        cursor: pointer;
+        color: #0955c7;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .add td a:hover {
+        text-decoration: underline;
+        color: #a50707;
+    }
+
+    .add .bgcolor {
+        background-color: #F1F1F1;
+    }
+
+ .add .bgcolor td {
+            border: 0px;
+    }
+ .btn {
+        cursor: pointer;
+        height: 30px;
+        min-width:100px;
+        width:auto;
+        /*margin: 0px 10px 0px 0px;*/
+        color: #fff;
+        background-color: #454545;
+        border: solid 1px #000;
+        padding: 0em .5em 0em .5em;
+        font-weight:bold;
+        line-height: 2em;
+        /*-moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;*/
+    }
+ .btn-blue {
+        cursor: pointer;
+        height: 30px;
+        min-width:80px;
+        width:auto;
+        /*margin: 0px 10px 0px 0px;*/
+        color: #fff;
+        background-color: #033B73;
+        border: solid 1px #A4C6EC;
+        padding: 0em .5em 0em .5em;
+        font-weight:bold;
+        line-height: 2em;
+        background: url(https://ugadmissions.nust.edu.pk/publishingimages/net-head-bg1.jpg);
+        /*-moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;*/
+    }
+
+.btn-black {
+    cursor: pointer;
+    height: 30px;
+    min-width: 80px;
+    width: auto;
+    /*margin: 0px 10px 0px 0px;*/
+    color: #fff;
+    background-color: #4b0403;
+    background: url(https://ugadmissions.nust.edu.pk/publishingimages/sat-head-bg.jpg);
+    border: solid 1px #dc5756;
+    padding: 0em .5em 0em .5em;
+    font-weight: bold;
+    line-height: 2em;
+    
+    /*-moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;*/
+}
+.btn-brown {
+    cursor: pointer;
+    height: 30px;
+    min-width: 80px;
+    width: auto;
+    /*margin: 0px 10px 0px 0px;*/
+    color: #fff;
+    background-color: #4b0403;
+    background: url(https://ugadmissions.nust.edu.pk/publishingimages/btn-brown.jpg);
+    border: solid 1px #dc5756;
+    padding: 0em .5em 0em .5em;
+    font-weight: bold;
+    line-height: 2em;
+    
+    /*-moz-border-radius: 7px 7px 7px 7px;
+        -khtml-border-radius-bottomleft: 7px;
+        -khtml-border-radius-bottomright: 7px;
+        -webkit-border-bottom-left-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        border-radius: 7px 7px 7px 7px;*/
+}
+
+ .btn-black:hover {
+        /*margin: 0px 10px 0px 0px;*/
+        color: #fff;
+        background-color: #005391;
+        /*background:url(https://ugadmissions.nust.edu.pk/publishingimages/net-head-bg.jpg);*/
+        
+    }
+
+.box-heading {
+    height:30px;
+    color:white;
+    background-color: #454545;
+        border: solid 1px #000;
+        padding: 0em .5em 0em .5em;
+        font-weight:bold;
+        line-height: 2em;
+}
+
+.padding-td td {
+    padding:3px;
+}
+
+/*--------- Border Starts --------------*/
+.border table {
+    border-collapse:collapse;
+    border: 1px solid Gray;
+    padding:3px;
+    
+}
+.border td {
+    border-collapse:collapse;
+    border: 1px solid #00548f;
+    padding:3px;
+    min-height:35px;
+    height:35px;
+}
+.border th {
+    border-collapse: collapse;
+    border: 1px solid #00548f;
+    background-color:#00548f;
+    height:20px;
+    font-weight:bold;
+    color:white;
+    padding:5px;
+}
+.border .alter {
+
+    border-collapse: collapse;
+    border: 1px solid gray;
+    background-color:#cfe2f6;
+    color:#000;
+    padding:5px;
+}
+.border .bold {
+    font-weight:bold;
+}
+
+
+/*--------- Border Ends ----------------*/

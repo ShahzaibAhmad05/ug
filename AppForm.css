@@ -1,0 +1,210 @@
+.li-padding ul, ol {
+    padding-left:15px;
+}
+.body {
+    /*font-family:Calibri;
+    font-size: 15px;
+    font-weight:bold;*/
+    color:#686565;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+td
+{
+    padding: 3px;
+    
+}
+
+
+h1 {
+    color:#005490;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.v-top, .v-top td {
+    vertical-align:top;
+}
+
+.form_headding
+{
+    color:white;
+    font-size: 16px;
+    padding:5px;
+    background-color:#005490;
+}
+
+.gray_bg {
+    
+    background-color:#fff;/* #f1ecec;*/
+    border-top:solid 5px #005490;
+    border-left:solid 5px #005490;
+    border-right:solid 5px #005490;
+    border-bottom:solid 5px #005490;
+}
+
+.netStation_bg {
+    background-color:#baf7a1;
+}
+
+.appform-res {
+    width:850px;
+    margin:0 auto;
+}
+
+.Eng-Color, .Eng-Color td
+{
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    border-collapse:collapse;
+    border:solid 1px #CBD8E1;
+    background-color:#CBD8E1;
+    
+}
+.Math-Color, .Math-Color td
+{
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    border-collapse:collapse;
+    background-color:#CAFFFF;
+}
+.Arch-Color, .Arch-Color td
+{
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    border-collapse:collapse;
+    background-color:#D0F0C6;
+    
+}
+.Med-Color, .Med-Color td
+{
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    border-collapse:collapse;
+    background-color:#DECBC0;
+    
+}
+.Mgt-Color, .Mgt-Color td
+{
+    width:100%;
+    padding:10px;
+    font-size:18px;
+    border-collapse:collapse;
+    background-color:#DAE0D2;    
+}
+
+.selected {
+    color:red;
+    font-weight:bold;
+}
+.notselected {
+    color:black;
+    font-weight:normal;
+}
+
+/*form New stye*/
+
+
+input, textarea, .input { 
+	background: none repeat scroll 0 0 #FFFFFF; 
+	border: 1px solid #979292; 
+	color: #000; 
+	padding: 5px; 
+	font-size: 14px;   
+	
+}
+
+.no {
+    width:32px;
+    color:white;
+    background-color:#979292;
+    text-align:center;
+    float:left;
+    margin-right:3px;
+}
+#current-tab {
+    width:32px;
+    color:white;
+    background-color:#005490;
+    text-align:center;
+    float:left;
+    margin-right:3px;
+}
+.text {
+    width:200px;
+    color:#005490;
+    background-color:#fff;
+    text-align:left;
+    border-bottom:solid 2px #005490;
+    font-size:20px;
+    margin-bottom:10px;
+    float:left;
+    margin-right:3px;
+}
+.disable-text {
+    width:200px;
+    color:#979292;
+    background-color:#fff;
+    text-align:left;
+    border-bottom:solid 2px #979292;
+    font-size:20px;
+    margin-bottom:10px;
+    float:left;
+    margin-right:3px;
+}
+
+/*.btn-blue {
+    cursor: pointer;
+    height: 30px;
+    min-width: 100px;
+    width: auto;
+    margin: 0px 10px 0px 0px;
+    color: #fff;
+    background-color: #005490;
+    border: solid 1px #000;
+    padding: 0em .5em 0em .5em;
+    font-weight: bold;
+    line-height: 2em;
+}*/
+
+.btn-blue {
+    border:1px solid #7d99ca; 
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-family:arial, helvetica, sans-serif; 
+    /*padding: 10px 10px 10px 10px; */
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.3); 
+    font-weight:bold; text-align: center; color: #FFFFFF; background-color: #5a7dbb;
+    background-image: linear-gradient(top, #a5b8da, #7089b3);
+ }
+.btn-blue:hover {
+ border:1px solid #5d7fbc; background-color: #005490;
+ background-image: linear-gradient(top, #819bcb, #536f9d);
+ }
+
+
+/*----------------------Admission Form CSS------------------------*/
+/*----------------------Sart------------------------*/
+.pref td {
+    padding: 2px;
+    font-size: 12px;
+    
+}
+.pref-width {
+    width: 550px;
+    height: 25px;
+    font-size:13px;
+    
+}
+
+select:disabled {
+    color:black !important;
+}
+
+
+
+/*----------------------End------------------------*/
+/*----------------------Admission Form CSS------------------------*/

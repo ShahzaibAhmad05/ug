@@ -1,0 +1,200 @@
+body {
+}
+
+.heading1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 1.5em;
+}
+
+.heading2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 2em;
+}
+
+.result {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    .result td {
+        padding: 5px;
+        border: solid 1px gray;
+    }
+
+    .result th {
+        padding: 5px;
+        font-weight: bold;
+        border: solid 1px gray;
+        background-color: #d4c8c8;
+    }
+
+    .result .tblheading {
+        text-decoration: underline;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .result .TblFooter {
+        font-weight: bold;
+    }
+
+.leftpad {
+    padding-left: .5em;
+    padding-right: .5em;
+    font-weight: bold;
+}
+
+.generated {
+    text-align: center;
+    padding-top: 5em;
+}
+
+.Position {
+    font-weight: bold;
+    text-align: center;
+}
+
+.auto-style1 {
+    width: 25%;
+    height: 18px;
+}
+
+.auto-style2 {
+    width: 75%;
+    height: 18px;
+}
+
+.MainDiv {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.resultTable {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+    .resultTable tr td {
+        border-top: 0px;
+        border-bottom: 1px solid #cdcdcd;
+        border-right: 0px;
+        border-left: 0px;
+        padding: 2px 5px;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .resultTable thead tr th {
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+        height: 40px;
+        text-align: center;
+        background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 46%, rgba(243,243,243,1) 94%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(46%,rgba(237,237,237,1)), color-stop(94%,rgba(243,243,243,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    }
+
+    .resultTable tbody tr:first-child td {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .resultTable tbody tr:first-child td {
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .resultTable tbody tr {
+        height: 20px;
+        line-height: 20px;
+    }
+
+
+.tblErrorMessages {
+    width: 86.5%;
+    margin: 10px 0px 0px 31px;
+}
+
+    .tblErrorMessages tbody tr {
+        min-height: 50px;
+    }
+
+    .tblErrorMessages th {
+        color: #ff0000;
+    }
+
+    .tblErrorMessages td {
+        padding: 10px;
+        color: #ff0000;
+        /*border:1px solid #cdcdcd;*/
+        background-color: #0D5377;
+        border-radius: 5px;
+    }
+
+        .tblErrorMessages td:before {
+            color: #ffffff;
+        }
+
+    .tblErrorMessages td {
+        color: #ffffff;
+    }
+
+        .tblErrorMessages td ul li {
+            list-style-position: inside;
+            margin-left: 0px;
+            line-height: 18px;
+            padding-left: 5px;
+            color: #ffffff;
+            line-break: normal;
+        }
+
+            .tblErrorMessages td ul li:before {
+                color: #fff;
+            }
+
+/******************************************Start Result Page CSS***********************************************/
+.tblNetResult {
+    width: 90%;
+    height: 150px;
+    margin:0 auto;
+    font-size:13px;
+}
+
+    .tblNetResult tbody{
+        background-color: #e4e4e4;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .tblNetResult tbody tr:last-child td{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .tblNetResult thead tr {
+        background-color: #0D5377;
+    }
+
+        .tblNetResult thead tr th {
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 5px 5px;
+        }
+/******************************************End Result Page CSS***********************************************/
